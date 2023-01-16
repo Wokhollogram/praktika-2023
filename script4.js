@@ -6,7 +6,7 @@
 
 var elems = document.getElementsByTagName('input');
 for (var i = 0; i < elems.length; i++) {
-	elems[i].addEventListener('focus', func);
+	elems[i].addEventListener('blur', func);
 }
 
 function func() {
